@@ -17,8 +17,7 @@ def extract_warnings_texts(result):
     if result.get('warnings'):
         for warning in result['warnings']:
             if _WarningSummary and isinstance(warning, _WarningSummary):
-                if warning.details:
-                    warnings.append(warning.details[0].msg)
+                warnings.append(warning.details[0].msg)
                 continue
             warnings.append(warning)
     return warnings
