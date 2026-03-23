@@ -4,6 +4,19 @@ Community Hetzner Robot Collection Release Notes
 
 .. contents:: Topics
 
+v2.7.1
+======
+
+Release Summary
+---------------
+
+Maintenance release.
+
+Bugfixes
+--------
+
+- Remove unnecessary Python 2 compatibilty code (https://github.com/ansible-collections/community.hrobot/pull/187).
+
 v2.7.0
 ======
 

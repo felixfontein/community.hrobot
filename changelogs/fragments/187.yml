@@ -1,2 +1,0 @@
-bugfixes:
-  - "Remove unnecessary Python 2 compatibilty code (https://github.com/ansible-collections/community.hrobot/pull/187)."

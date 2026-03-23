@@ -586,3 +586,12 @@ releases:
       - 183-storagebox-depr.yml
       - 2.7.0.yml
     release_date: '2025-10-25'
+  2.7.1:
+    changes:
+      bugfixes:
+        - Remove unnecessary Python 2 compatibilty code (https://github.com/ansible-collections/community.hrobot/pull/187).
+      release_summary: Maintenance release.
+    fragments:
+      - 187.yml
+      - 2.7.1.yml
+    release_date: '2026-03-23'
